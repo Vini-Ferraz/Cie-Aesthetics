@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-primary: rgba(183, 205, 184, 1);
+  --bg-color-secondary: rgba(58, 90, 64, 0.9);
+  --bg-color-cta: rgba(235, 130, 88, 1);
+  --font-dark: rgba(32, 32, 32, 1);
+  --font-light: rgba(219, 219, 219, 1);
+  --title-font: "Playfair Display", serif;
+  --body-text-font: "Josefin Sans", sans-serif;
+}
