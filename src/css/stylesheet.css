@@ -15,3 +15,25 @@
   --title-font: "Playfair Display", serif;
   --body-text-font: "Josefin Sans", sans-serif;
 }
+
+.bg-color-primary {
+  background-color: var(--bg-color-primary);
+}
+.bg-color-secondary {
+  background-color: var(--bg-color-secondary);
+}
+.font-dark {
+  color: var(--font-dark);
+}
+.font-light {
+  color: var(--font-light);
+}
+.body-text-font {
+  font-family: var(--body-text-font);
+}
+.title-font {
+  font-family: var(--title-font);
+}
+a {
+  text-decoration: none;
+}
