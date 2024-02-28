@@ -51,6 +51,22 @@ a {
   .body-text-font-size {
     font-size: 20px;
   }
+
+  .border-spacing {
+    padding: 20% 3%;
+  }
+  .section-spacing {
+    padding-bottom: 3%;
+  }
+  .section-spacing-half {
+    padding-bottom: 1.5%;
+  }
+
+  #menu-style,
+  footer {
+    padding: 7% 3%;
+  }
+
   #menu-icon {
     width: 45px;
   }
