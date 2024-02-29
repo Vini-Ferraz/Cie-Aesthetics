@@ -37,10 +37,30 @@
 a {
   text-decoration: none;
 }
+.text-center {
+  text-align: center;
+}
+.btn {
+  padding: 2.5% 5%;
+  border-radius: 1vw;
+}
+.normal {
+  border: 1px solid var(--font-light);
+}
+.normal-dark {
+  border: 1px solid var(--font-dark);
+}
+.call-to-action {
+  background-color: var(--bg-color-cta);
+}
+.icone {
+  font-style: normal;
+}
 
 @media (max-width: 425px) {
   img {
     width: 100%;
+    border-radius: 3%;
   }
   .title-font-size {
     font-size: 40px;
@@ -58,6 +78,9 @@ a {
   .section-spacing {
     padding-bottom: 3%;
   }
+  .button-spacing {
+    padding: 3% 0% 6% 0%;
+  }
   .section-spacing-half {
     padding-bottom: 1.5%;
   }
@@ -72,5 +95,11 @@ a {
   }
   #menu {
     display: none;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
