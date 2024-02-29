@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -30,9 +31,11 @@
 }
 .body-text-font {
   font-family: var(--body-text-font);
+  line-height: 130%;
 }
 .title-font {
   font-family: var(--title-font);
+  line-height: 125%;
 }
 a {
   text-decoration: none;
@@ -76,13 +79,13 @@ a {
     padding: 20% 3%;
   }
   .section-spacing {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
   }
   .button-spacing {
-    padding: 3% 0% 6% 0%;
+    padding: 5% 0% 10% 0%;
   }
   .section-spacing-half {
-    padding-bottom: 1.5%;
+    padding-bottom: 2.5%;
   }
 
   #menu-style,
@@ -95,6 +98,9 @@ a {
   }
   #menu {
     display: none;
+  }
+  hr {
+    margin-bottom: 5%;
   }
 
   .flex {
