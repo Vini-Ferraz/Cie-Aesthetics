@@ -130,3 +130,19 @@ a {
     flex-direction: column;
   }
 }
+
+@media (min-width: 425px) {
+  .title-font-size {
+    font-size: 52px;
+  }
+  .sub-title-font-size {
+    font-size: 30px;
+  }
+  .body-text-font-size {
+    font-size: 23px;
+  }
+
+  img {
+    display: none;
+  }
+}
