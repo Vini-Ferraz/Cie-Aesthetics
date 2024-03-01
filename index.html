@@ -12,13 +12,16 @@
   </head>
   <body class="bg-color-primary font-dark body-text-font">
     <header
-      class="bg-color-secondary font-light title-font flex"
+      class="bg-color-secondary font-light title-font flex column"
       id="menu-style"
     >
-      <p class="sub-title-font-size">Cie Aesthetics</p>
-      <nav class="body-text-font-size">
+      <div id="menu-flex-box" class="flex">
+        <p class="sub-title-font-size">Cie Aesthetics</p>
         <img src="src\medias\menu-icon.svg" alt="menu icon" id="menu-icon" />
-        <ul id="menu">
+      </div>
+
+      <nav class="body-text-font-size" id="menu">
+        <ul>
           <li class="section-spacing-half">
             <a href="#about-us-section" class="font-light">About Us</a>
           </li>
@@ -40,7 +43,7 @@
       </nav>
     </header>
     <main>
-      <section class="border-spacing">
+      <section class="border-spacing section-spacing-top">
         <h1 class="title-font title-font-size section-spacing">
           Elevate Your Style with Handmade Artisan Jewelry
         </h1>
@@ -242,5 +245,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="src\js\menuMobileScript.js"></script>
   </body>
 </html>
