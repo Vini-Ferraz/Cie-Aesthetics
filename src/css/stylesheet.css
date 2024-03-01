@@ -91,6 +91,9 @@ a {
   .section-spacing-top {
     padding-top: 30%;
   }
+  .button-right-spacing {
+    margin-right: 3%;
+  }
 
   #menu-style,
   footer {
