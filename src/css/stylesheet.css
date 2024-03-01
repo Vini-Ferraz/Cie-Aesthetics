@@ -110,11 +110,12 @@ a {
     opacity: 0;
     max-height: 0;
     width: 100%;
-    transition: all 0.5s ease-in-out;
+    transition: all 350ms ease;
   }
 
   #menu-flex-box {
     width: 100%;
+    transition: all 350ms ease;
   }
   hr {
     margin-bottom: 5%;
