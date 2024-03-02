@@ -12,7 +12,7 @@
   </head>
   <body class="bg-color-primary font-dark body-text-font">
     <header
-      class="bg-color-secondary font-light title-font flex column"
+      class="bg-color-secondary font-light title-font flex column row"
       id="menu-style"
     >
       <div id="menu-flex-box" class="flex">
@@ -21,7 +21,7 @@
       </div>
 
       <nav class="body-text-font-size" id="menu">
-        <ul>
+        <ul class="flex row">
           <li class="section-spacing-half">
             <a href="#about-us-section" class="font-light">About Us</a>
           </li>
@@ -43,26 +43,28 @@
       </nav>
     </header>
     <main>
-      <section class="border-spacing section-spacing-top">
-        <h1 class="title-font title-font-size section-spacing">
-          Elevate Your Style with Handmade Artisan Jewelry
-        </h1>
-        <p class="body-text-font-size section-spacing">
-          Discover our collection of unique, high-quality, handcrafted beads
-          that will add a touch of sophistication to any outfit
-        </p>
-        <div class="button-spacing">
-          <a
-            href="https://www.instagram.com/cie.aesthetics/"
-            target="_blank"
-            class="font-dark body-text-font-size btn call-to-action button-right-spacing"
-            >Shop</a
-          >
-          <a
-            href="#benefits-section"
-            class="font-dark body-text-font-size btn normal-dark"
-            >Learn More</a
-          >
+      <section class="border-spacing section-spacing-top flex row">
+        <div class="section-content-flex">
+          <h1 class="title-font title-font-size section-spacing">
+            Elevate Your Style with Handmade Artisan Jewelry
+          </h1>
+          <p class="body-text-font-size section-spacing">
+            Discover our collection of unique, high-quality, handcrafted beads
+            that will add a touch of sophistication to any outfit
+          </p>
+          <div class="button-spacing">
+            <a
+              href="https://www.instagram.com/cie.aesthetics/"
+              target="_blank"
+              class="font-dark body-text-font-size btn call-to-action button-right-spacing"
+              >Shop</a
+            >
+            <a
+              href="#benefits-section"
+              class="font-dark body-text-font-size btn normal-dark"
+              >Learn More</a
+            >
+          </div>
         </div>
         <figure>
           <img
@@ -72,51 +74,53 @@
         </figure>
       </section>
       <section
-        class="bg-color-secondary font-light border-spacing"
+        class="bg-color-secondary font-light border-spacing flex row"
         id="about-us-section"
       >
-        <p class="body-text-font-size section-spacing">Elegant</p>
-        <h1 class="title-font title-font-size section-spacing">
-          Exquisite Handmade Jewelry for Every Occasion
-        </h1>
-        <p class="body-text-font-size section-spacing">
-          Discover the unique craftsmanship of our artisan jewelry, designed to
-          add a touch of elegance to your style. Each piece is meticulously
-          crafted with attention to detail, making them perfect for any
-          occasion.
-        </p>
-        <article class="section-spacing">
-          <i class="sub-title-font-size section-spacing-half icone">📿</i>
-          <h2 class="title-font sub-title-font-size section-spacing-half">
-            Crafted Beads
-          </h2>
-          <p class="body-text-font-size">
-            Each bead is meticulously handcrafted with high quality and
-            attention to detail.
+        <div class="section-content-flex column section-content-flex">
+          <p class="body-text-font-size section-spacing">Elegant</p>
+          <h1 class="title-font title-font-size section-spacing">
+            Exquisite Handmade Jewelry for Every Occasion
+          </h1>
+          <p class="body-text-font-size section-spacing">
+            Discover the unique craftsmanship of our artisan jewelry, designed
+            to add a touch of elegance to your style. Each piece is meticulously
+            crafted with attention to detail, making them perfect for any
+            occasion.
           </p>
-        </article>
-        <article class="section-spacing">
-          <i class="sub-title-font-size section-spacing-half icone">💡</i>
-          <h2 class="title-font sub-title-font-size section-spacing-half">
-            Unique Designs
-          </h2>
-          <p class="body-text-font-size">
-            Our handmade bracelets and necklaces feature unique designs that
-            will make you stand out from the crowd.
-          </p>
-        </article>
-        <div class="button-spacing">
-          <a
-            href="#benefits-section"
-            class="font-light body-text-font-size btn normal button-right-spacing"
-            >Learn More</a
-          >
-          <a
-            href="https://www.instagram.com/cie.aesthetics/"
-            target="_blank"
-            class="font-light body-text-font-size btn normal"
-            >Shop Now >
-          </a>
+          <article class="section-spacing">
+            <i class="sub-title-font-size section-spacing-half icone">📿</i>
+            <h2 class="title-font sub-title-font-size section-spacing-half">
+              Crafted Beads
+            </h2>
+            <p class="body-text-font-size">
+              Each bead is meticulously handcrafted with high quality and
+              attention to detail.
+            </p>
+          </article>
+          <article class="section-spacing">
+            <i class="sub-title-font-size section-spacing-half icone">💡</i>
+            <h2 class="title-font sub-title-font-size section-spacing-half">
+              Unique Designs
+            </h2>
+            <p class="body-text-font-size">
+              Our handmade bracelets and necklaces feature unique designs that
+              will make you stand out from the crowd.
+            </p>
+          </article>
+          <div class="button-spacing">
+            <a
+              href="#benefits-section"
+              class="font-light body-text-font-size btn normal button-right-spacing"
+              >Learn More</a
+            >
+            <a
+              href="https://www.instagram.com/cie.aesthetics/"
+              target="_blank"
+              class="font-light body-text-font-size btn normal"
+              >Shop Now >
+            </a>
+          </div>
         </div>
         <figure>
           <img
@@ -125,36 +129,38 @@
           />
         </figure>
       </section>
-      <section class="border-spacing" id="benefits-section">
-        <article class="section-spacing">
-          <h1 class="title-font sub-title-font-size section-spacing-half">
-            Perfect for weddings, gifts
-          </h1>
-          <p class="body-text-font-size">
-            Add a touch of elegance to your style with our unique, handmade
-            artisan jewelry, suitable for any occasion from weddings to casual
-            wear or as thoughtful gifts
-          </p>
-        </article>
-        <article class="section-spacing">
-          <h1 class="title-font sub-title-font-size section-spacing-half">
-            Ideal for casual wear
-          </h1>
-          <p class="body-text-font-size">
-            Enhance your everyday style with our handmade bracelets and
-            necklaces, perfect for casual wear and adding a unique touch to your
-            outfits.
-          </p>
-        </article>
-        <article class="section-spacing">
-          <h1 class="title-font sub-title-font-size section-spacing-half">
-            Great as gifts
-          </h1>
-          <p class="body-text-font-size">
-            Looking for a special gift? Our custom jewelry is a thoughtful and
-            stylish choice for any occasion, sure to impress and delight.
-          </p>
-        </article>
+      <section class="border-spacing flex row" id="benefits-section">
+        <div class="section-content-flex">
+          <article class="section-spacing">
+            <h1 class="title-font sub-title-font-size section-spacing-half">
+              Perfect for weddings, gifts
+            </h1>
+            <p class="body-text-font-size">
+              Add a touch of elegance to your style with our unique, handmade
+              artisan jewelry, suitable for any occasion from weddings to casual
+              wear or as thoughtful gifts
+            </p>
+          </article>
+          <article class="section-spacing">
+            <h1 class="title-font sub-title-font-size section-spacing-half">
+              Ideal for casual wear
+            </h1>
+            <p class="body-text-font-size">
+              Enhance your everyday style with our handmade bracelets and
+              necklaces, perfect for casual wear and adding a unique touch to
+              your outfits.
+            </p>
+          </article>
+          <article class="section-spacing">
+            <h1 class="title-font sub-title-font-size section-spacing-half">
+              Great as gifts
+            </h1>
+            <p class="body-text-font-size">
+              Looking for a special gift? Our custom jewelry is a thoughtful and
+              stylish choice for any occasion, sure to impress and delight.
+            </p>
+          </article>
+        </div>
         <figure>
           <img
             src="src\medias\img_03.jpg"
@@ -162,16 +168,19 @@
           />
         </figure>
       </section>
-      <section class="bg-color-secondary font-light border-spacing">
-        <p class="title-font-size section-spacing">💍</p>
-        <h1 class="title-font title-font-size section-spacing">
-          Experience the Beauty of Handmade Jewelry for Unmatched Quality.
-        </h1>
-        <p class="body-text-font-size section-spacing">
-          Our handcrafted jewelry is meticulously crafted to ensure exceptional
-          quality and attention to detail. Each piece is a unique work of art,
-          allowing you to express your individual style with confidence.
-        </p>
+      <section class="bg-color-secondary font-light border-spacing flex row">
+        <div class="section-content-flex">
+          <p class="title-font-size section-spacing">💍</p>
+          <h1 class="title-font title-font-size section-spacing">
+            Experience the Beauty of Handmade Jewelry for Unmatched Quality.
+          </h1>
+          <p class="body-text-font-size section-spacing">
+            Our handcrafted jewelry is meticulously crafted to ensure
+            exceptional quality and attention to detail. Each piece is a unique
+            work of art, allowing you to express your individual style with
+            confidence.
+          </p>
+        </div>
         <figure>
           <img
             src="src\medias\img_04.jpg"
@@ -222,25 +231,31 @@
           Explore our stunning collection of hand-made beads
         </p>
         <figure>
-          <img
+          <div class="flex row">
+            <img
             src="src\medias\img_05.jpg"
             alt="Close-up of a person’s neck adorned with two necklaces, one colorful beaded and one thin gold chain"
             class="section-spacing-half"
           />
           <img
             src="src\medias\img_06.jpg"
-            alt=""
+            alt="Hand wearing two beaded bracelets, one with a smiley face bead and the other with a letter ‘J’ charm, and a bead ring with a green stone on the pinky finger"
             class="section-spacing-half"
           />
-          <img src="src\medias\img_07.jpg" alt="" />
+          <img
+            src="src\medias\img_07.jpg"
+            alt="Close-up of dark braided hair with a pink hair clip and two decorative chains with beads and charms"
+          />
         </figure>
+          </div>
+
       </section>
     </main>
     <footer class="bg-color-secondary font-light title-font text-center">
       <p class="sub-title-font-size section-spacing">Cie Aesthetics</p>
       <hr />
       <nav class="body-text-font-size">
-        <ul>
+        <ul class="flex section-content-flex row">
           <li class="section-spacing-half">
             <a href="#about-us-section" class="font-light">About Us</a>
           </li>
