@@ -142,7 +142,30 @@ a {
     font-size: 23px;
   }
 
+  .border-spacing {
+    padding: 15% 5%;
+  }
+  .section-spacing {
+    padding-bottom: 5%;
+  }
+  .button-spacing {
+    padding: 5% 0% 10% 0%;
+  }
+  .section-spacing-half {
+    padding-bottom: 2.5%;
+  }
+  .section-spacing-top {
+    padding-top: 30%;
+  }
+  .button-right-spacing {
+    margin-right: 3%;
+  }
+  #menu-style,
+  footer {
+    padding: 7% 3%;
+  }
+
   img {
-    display: none;
+    max-width: 100%;
   }
 }
