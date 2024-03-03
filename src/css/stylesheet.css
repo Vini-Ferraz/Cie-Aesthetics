@@ -239,6 +239,9 @@ a {
     padding: 2% 4%;
     border-radius: 0.5vw;
   }
+  .btn-desktop {
+    padding: 1% 2%;
+  }
   #menu-style,
   footer {
     padding: 1.5% 5%;
