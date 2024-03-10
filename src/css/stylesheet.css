@@ -18,6 +18,32 @@
   --body-text-font: "Josefin Sans", sans-serif;
 }
 
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 500px;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--font-light);
+  }
+}
+
+.logo-typing {
+  overflow: hidden;
+  border-right: 0.15em solid var(--bg-color-cta);
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
 .bg-color-primary {
   background-color: var(--bg-color-primary);
 }
