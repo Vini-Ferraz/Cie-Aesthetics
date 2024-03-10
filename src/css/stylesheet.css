@@ -12,6 +12,8 @@
   --bg-color-primary: rgba(183, 205, 184, 1);
   --bg-color-secondary: rgba(58, 90, 64, 0.9);
   --bg-color-cta: rgba(235, 130, 88, 1);
+  --bg-color-cta-hover: rgb(209, 105, 64);
+  --bg-btn-color-hover: rgb(196, 196, 196);
   --font-dark: rgba(32, 32, 32, 1);
   --font-light: rgba(219, 219, 219, 1);
   --title-font: "Playfair Display", serif;
@@ -75,11 +77,21 @@ a {
 .normal {
   border: 1px solid var(--font-light);
 }
+.normal:hover,
+.normal-dark:hover {
+  background-color: var(--bg-btn-color-hover);
+  color: var(--font-dark);
+  transition: all 350ms ease;
+}
 .normal-dark {
   border: 1px solid var(--font-dark);
 }
 .call-to-action {
   background-color: var(--bg-color-cta);
+}
+.call-to-action:hover {
+  background-color: var(--bg-color-cta-hover);
+  transition: all 350ms ease;
 }
 .icone {
   font-style: normal;
