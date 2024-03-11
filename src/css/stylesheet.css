@@ -101,6 +101,13 @@ hr {
   border-top: none;
   padding-bottom: -50%;
 }
+.menu-iten > a:hover {
+  color: var(--bg-color-cta);
+  transition: all 350ms ease;
+}
+.menu-iten > a:active {
+  color: var(--bg-color-cta-hover);
+}
 
 @media (max-width: 425px) {
   .title-font-size {
