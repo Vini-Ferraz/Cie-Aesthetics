@@ -149,6 +149,7 @@ hr {
     position: fixed;
     width: 100vw;
     backdrop-filter: blur(2px);
+    z-index: 100;
   }
   #menu-icon {
     width: 45px;
@@ -172,6 +173,12 @@ hr {
     max-height: 80vh;
     border-radius: 3%;
     object-fit: cover;
+  }
+  .swiper {
+    height: 75vh;
+  }
+  .img-galery {
+    width: 100%;
   }
 
   .flex {
@@ -225,7 +232,7 @@ hr {
     backdrop-filter: blur(2px);
   }
   #menu-icon {
-    width: 75px;
+    width: 50px;
   }
   #menu {
     opacity: 0;
@@ -241,6 +248,12 @@ hr {
     width: 100%;
     max-height: 85vh;
     border-radius: 3%;
+  }
+  .swiper {
+    height: 75vh;
+  }
+  .img-galery {
+    width: 100%;
   }
 
   .flex {
@@ -308,17 +321,12 @@ hr {
   #menu-itens,
   .section-flex-desktop-screens,
   footer,
-  #image-galery-flex-box-desktop-screens,
   #testimony-section {
     display: flex;
     align-items: center;
   }
 
   #menu-itens {
-    align-items: center;
-    justify-content: space-between;
-  }
-  #image-galery-flex-box-desktop-screens {
     align-items: center;
     justify-content: space-between;
   }

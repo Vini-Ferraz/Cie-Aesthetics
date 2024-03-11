@@ -246,28 +246,29 @@
         <p class="body-text-font-size section-spacing">
           Explore our stunning collection of hand-made beads
         </p>
-        <figure>
-          <div
-            class="section-flex-desktop-screens"
-            id="image-galery-flex-box-desktop-screens"
-          >
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
             <img
               src="src\medias\img_05.jpg"
               alt="Colorful beaded necklace with a central purple grape-shaped bead and various other beads in pink, white, red, and yellow."
-              class="section-spacing-half image-galery-desktop-screens"
+              class="swiper-slide img-galery"
             />
             <img
               src="src\medias\img_06.jpg"
               alt="Hand wearing three beaded bracelets on the fingers, one with a smiley face bead and the other with a letter ‘J’ charm, and the last one looks like a ring with a green stone on the pinky finger"
-              class="section-spacing-half image-galery-desktop-screens"
+              class="swiper-slide img-galery"
             />
             <img
               src="src\medias\img_07.jpg"
               alt="Close-up of dark braided hair with a pink hair clip and two decorative chains with beads and charms"
-              class="section-spacing-half image-galery-desktop-screens"
+              class="swiper-slide img-galery"
             />
+            ...
           </div>
-        </figure>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
     </main>
     <footer class="bg-color-secondary font-light title-font text-center">
@@ -278,5 +279,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="src\js\menuMobileScript.js"></script>
+    <script src="src\js\swiperScript.js"></script>
   </body>
 </html>
