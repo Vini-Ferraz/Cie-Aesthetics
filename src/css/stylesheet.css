@@ -108,6 +108,15 @@ hr {
 .menu-iten > a:active {
   color: var(--bg-color-cta-hover);
 }
+.swiper-pagination {
+  color: var(--bg-color-cta);
+}
+.swiper {
+  height: 75vh;
+}
+.img-galery {
+  width: 100%;
+}
 
 @media (max-width: 425px) {
   .title-font-size {
@@ -173,12 +182,6 @@ hr {
     max-height: 80vh;
     border-radius: 3%;
     object-fit: cover;
-  }
-  .swiper {
-    height: 75vh;
-  }
-  .img-galery {
-    width: 100%;
   }
 
   .flex {
@@ -248,12 +251,6 @@ hr {
     width: 100%;
     max-height: 85vh;
     border-radius: 3%;
-  }
-  .swiper {
-    height: 75vh;
-  }
-  .img-galery {
-    width: 100%;
   }
 
   .flex {
