@@ -197,6 +197,7 @@ hr {
 @media (min-width: 425px) {
   .title-font-size {
     font-size: 52px;
+    line-height: 125%;
   }
   .sub-title-font-size {
     font-size: 30px;
@@ -207,7 +208,7 @@ hr {
   }
 
   .border-spacing {
-    padding: 15% 5%;
+    padding: 10% 5%;
   }
   .section-spacing {
     padding-bottom: 5%;
@@ -233,6 +234,7 @@ hr {
     position: fixed;
     width: 100vw;
     backdrop-filter: blur(2px);
+    z-index: 100;
   }
   #menu-icon {
     width: 50px;
@@ -304,6 +306,9 @@ hr {
   footer {
     padding: 1.5% 5%;
   }
+  #menu-style {
+    z-index: 100;
+  }
 
   #menu-icon {
     display: none;
@@ -343,14 +348,13 @@ hr {
     border-radius: 1.5%;
   }
   .section-img {
-    width: 40vw;
-    min-height: 100%;
-    object-fit: fill;
+    width: 35vw;
   }
-  .image-galery-desktop-screens {
-    width: 32%;
+  .swiper {
     height: 80vh;
-    padding-bottom: 0;
-    object-fit: cover;
+    width: 100%;
+  }
+  .img-galery {
+    width: 100%;
   }
 }
