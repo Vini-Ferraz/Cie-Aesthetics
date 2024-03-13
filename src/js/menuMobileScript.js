@@ -3,6 +3,7 @@ const myMenu = document.getElementById("menu");
 const menuParent = document.getElementById("menu-flex-box");
 const menuItens = document.getElementById("menu-itens");
 const menuLinks = document.querySelectorAll("#menu-itens a");
+let windowWidth = window.innerWidth;
 
 function addExtraSpaceSwitch() {
   menuParent.classList.add("section-spacing");
@@ -22,9 +23,12 @@ function menuSwitch() {
     addExtraSpaceSwitch();
   }
 }
+window.addEventListener("resize", function () {
+  windowWidth = this.window.innerWidth;
+});
 menuLinks.forEach((listItens) => {
   listItens.addEventListener("click", function (e) {
-    if (myMenu.style.opacity !== "1") {
+    if (windowWidth <= 756 && myMenu.style.opacity == "0") {
       e.preventDefault();
     }
   });
