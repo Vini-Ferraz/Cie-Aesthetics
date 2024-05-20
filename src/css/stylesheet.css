@@ -4,15 +4,15 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  box-sizing: border-box;
+  box-sizing: content-box;
   scroll-behavior: smooth;
 }
 
 :root {
   --bg-color-primary: rgba(183, 205, 184, 1);
-  --bg-color-secondary: rgba(58, 90, 64, 0.9);
-  --bg-color-cta: rgba(235, 130, 88, 1);
-  --bg-color-cta-hover: rgb(209, 105, 64);
+  --bg-color-secondary: #3a5a40e6;
+  --bg-color-cta: #e2684a;
+  --bg-color-cta-hover: #d85f41;
   --bg-btn-color-hover: rgb(196, 196, 196);
   --font-dark: rgba(32, 32, 32, 1);
   --font-light: rgba(219, 219, 219, 1);
@@ -49,10 +49,10 @@
 }
 .logo-typing {
   overflow: hidden;
-  border-right: 0.15em solid var(--bg-color-cta);
+  border-right: 0.15em solid #07070700;
   white-space: nowrap;
   letter-spacing: 0.15em;
-  animation: typing 3.5s steps(40, end), blink-caret 1s step-end infinite;
+  animation: typing 3.5s steps(40, end), blink-caret 1s step-end 5;
 }
 
 .bg-color-primary {
